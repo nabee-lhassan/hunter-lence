@@ -677,9 +677,20 @@ footer{
     margin: 12% 4%;
 }
 
+.sec-2 {
+    padding: 17% 0%;
+}
+
+.sec-2 .row{
+    flex-direction: column-reverse;
+}
+
+.sec-5 .row{
+    flex-direction: column-reverse;
+}
 
 .sec-5 .div-image {
-    display: none;
+    margin: 15% 0%;
 }
 
 .sec-5 .col-lg-6 .content h2 {
@@ -701,12 +712,18 @@ footer{
   @media only screen and (max-width: 820px){
 
     .banner h1 {
-        font-size: 36px;
+        font-size: 35px;
+    }
+
+    .sec-2 h3 {
+        font-size: 35px;
     }
 
     .sec-5 .col-lg-6 .content h2 {
-        font-size: 36px;
+        font-size: 35px;
     }
+
+    
 
     .div-heading h3 {
         font-size: 35px;
