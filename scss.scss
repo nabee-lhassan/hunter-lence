@@ -81,7 +81,7 @@ overflow: hidden;
 
 
 h1{
-    font-size: 65px;
+    font-size: 50px;
 }
 
 
@@ -184,6 +184,11 @@ animation-fill-mode: forwards;
 
     h3{
         font-size: 55px;
+        color: #124731;
+    
+    }
+    h4{
+      
         margin-bottom: 6%;
     }
 
@@ -552,6 +557,11 @@ footer{
                 width: 70%;
                 padding: 10px 0px;
             }
+
+            :focus-visible{
+                outline: none;
+
+            }
     
             button{
                 position: absolute;
@@ -609,7 +619,10 @@ footer{
         font-size: 39px;
     }
 
-
+.banner .banner-image {
+   
+    display: none;
+}
 
     .sec-2 .app_image_slider img {
         width: 100%;
