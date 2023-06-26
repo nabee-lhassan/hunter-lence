@@ -170,9 +170,6 @@ header ul.navbar-nav li a {
 .sec-3 h3 {
   font-size: 45px;
 }
-.sec-3 p {
-  font-size: 22px;
-}
 .sec-3 .carousel-indicators [data-bs-target] {
   width: 50px;
   height: 50px;
@@ -246,6 +243,20 @@ header ul.navbar-nav li a {
 .sec-5 {
   padding: 5% 0%;
 }
+.sec-5 .div-ul {
+  display: flex;
+  width: 100%;
+}
+.sec-5 .div-ul ul {
+  list-style: none;
+  padding: 0;
+  line-height: 35px;
+  width: 50%;
+}
+.sec-5 .div-ul ul i.fa-solid.fa-check {
+  margin-right: 3%;
+  color: #124731;
+}
 .sec-5 .col-lg-6 {
   display: flex;
   align-items: center;
@@ -259,7 +270,7 @@ header ul.navbar-nav li a {
 .sec-5 .col-lg-6 .content .div-btn {
   display: flex;
   justify-content: flex-start;
-  margin: 5% 0%;
+  margin: 2% 0%;
 }
 .sec-5 .col-lg-6 .content .div-btn a {
   background-color: #3c6d41;
@@ -274,7 +285,7 @@ header ul.navbar-nav li a {
   align-items: center;
 }
 .sec-5 .div-image img {
-  width: 30%;
+  width: 75%;
 }
 
 .div-heading {
@@ -286,7 +297,7 @@ header ul.navbar-nav li a {
 }
 
 .sec-6 {
-  padding: 5% 0%;
+  padding-bottom: 5%;
 }
 .sec-6 .contact-form {
   width: 100%;

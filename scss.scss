@@ -252,7 +252,7 @@ h3{
 }
 
 p{
-    font-size: 22px;
+    // font-size: 22px;
 }
 
     .carousel-indicators [data-bs-target]{
@@ -360,8 +360,25 @@ padding: 5% 0%;
 
 .sec-5{
 
+    .div-ul {
+        display: flex;
+        width: 100%;
+    
+
+     ul {
+        list-style: none;
+        padding: 0;
+        line-height: 35px;
+        width: 50%;
 
 
+        i.fa-solid.fa-check {
+            margin-right: 3%;
+            color: #124731;
+        }
+    }
+
+}
     padding: 5% 0%;
 
 
@@ -381,7 +398,7 @@ padding: 5% 0%;
     .div-btn {
         display: flex;
         justify-content: flex-start;
-        margin: 5% 0%;
+        margin: 2% 0%;
         a {
             background-color: #3c6d41;
             padding: 5% 10%;
@@ -399,7 +416,7 @@ padding: 5% 0%;
         justify-content: center;
         align-items: center;
         img{
-            width: 30%;
+            width: 75%;
         }
     }
 }
@@ -415,7 +432,7 @@ padding: 5% 0%;
 
 .sec-6{
 
-    padding: 5% 0%;
+    padding-bottom:5%;
 
     .contact-form{
 width: 100%;
