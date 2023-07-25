@@ -340,6 +340,20 @@ header ul.navbar-nav li a {
   padding: 2% 3%;
   height: 153px;
 }
+.sec-6 .contact-form form .div-submit-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 3% 0%;
+}
+.sec-6 .contact-form form .div-submit-btn .btn-submit {
+  background: linear-gradient(180deg, #5F8D4E 0%, #124731 100%);
+  color: white;
+  padding: 1% 5%;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+}
 
 footer {
   background: linear-gradient(180deg, #5F8D4E 0%, #124731 100%);

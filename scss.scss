@@ -474,6 +474,8 @@ label{
                 padding: 1% 2%;
                 
             }
+
+
             
             textarea{
                 width: 100%;
@@ -484,6 +486,24 @@ label{
 
                 
             }
+
+            .div-submit-btn {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                margin: 3% 0%;
+            
+
+            .btn-submit{
+                background: linear-gradient(180deg, #5F8D4E 0%, #124731 100%);
+                color: white;
+                padding: 1% 5%;
+                text-align: center;
+                border-radius: 5px;
+                border: none;
+            }
+
+        }
         }
 
     }
